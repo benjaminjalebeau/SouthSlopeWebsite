@@ -1,0 +1,121 @@
+@media only screen and (min-width: 560px) {
+    header button{display: none;}
+
+    body{
+        margin-top: 50px;
+    }
+    #myHeader {
+        grid-template-columns: 50px 3fr 4fr;
+        padding-right: 2%;
+    }
+    #nav_top{
+        grid-column: 3 / 4;
+        
+        width: 100%;
+        
+    }
+    #nav_top ul.hide{display: block}
+   
+
+    #nav_top ul li a{
+        display: inline;
+        float: left;
+        width: 25%;
+        margin: 0;
+        padding: .5rem;
+        text-align: center;
+        font-size: .6rem;
+    }
+
+    #nav_top ul li.active a {
+        color: #999903;
+        border-left: none;
+        border-bottom: solid 2px #999903;
+    }
+    #nav_top ul li a:hover {
+        border-left: none;
+        border-bottom: solid 2px red;
+        box-shadow: #999903 2px 2px 8px 1px; 
+    }
+
+   
+
+    #odex {
+        max-height: 800px;
+    }
+
+
+    #box1 {
+        object-position: 40% 65%;
+    }
+
+    
+
+    footer h2{
+        font-size: 1.2em;
+    }
+    footer #contact_logo {
+        width: max-content;
+        justify-self: center;
+        align-self: center;
+        margin: auto;
+    }
+    footer #social a img{
+        width: 50px;
+        
+
+    }
+
+    footer #nav_bottom{
+        grid-row: 2;
+    }
+  
+    footer #nav_bottom ul li a{
+        font-size: 1em;
+        padding: 0 2% 0 2%;
+    }
+
+    #contactbox img{
+        display: block;
+        margin-right: 2%;
+    }
+
+    #contactbox ul{
+        margin: auto;
+    }
+
+    #contactbox ul li{
+        font-size: 1.2em;
+        line-height: 2.2em;
+    }
+
+    #cards.hide2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+    .hide2 section{
+        padding: 0;
+        margin: 0;
+
+    }
+    #listbutton{
+        display: block;
+        float: right;
+        margin: 1rem;
+        background-color: #999903;
+        color: white;
+        border: none;
+        padding: .5rem;
+    }
+    #listbutton:hover{
+        box-shadow: 5px 5px 10px 5px;
+        transition: all .3s;
+    }
+
+    /*.boxGrid {
+        grid-template-columns: 1fr 1fr;
+    }*/
+    
+
+}

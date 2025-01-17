@@ -1,0 +1,35 @@
+@media only screen and (min-width: 1028px) {
+    #myHeader{
+        grid-template-columns: 50px 2fr 3fr;
+    }
+    
+    #nav_top ul li a{
+        font-size: .9em;
+    }
+    
+    
+
+
+    .boxGrid section h3{
+        font-size: .8em;
+    }
+    
+    footer #nav_bottom{
+        margin-right: -200px;
+    }
+  
+
+    footer {  
+        grid-template-columns: 2fr 3fr;
+    }
+
+    #contactbox ul li{
+        font-size: 1.5em;
+        line-height: 2.5em;
+    }
+
+    #cards.hide2{
+        grid-template-columns: 1fr 1fr 1fr;  
+    }
+
+}
